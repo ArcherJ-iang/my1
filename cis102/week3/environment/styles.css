@@ -1,0 +1,144 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container */
+#container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #47476b;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    background: #47476b;
+    padding: 10px 0;
+}
+
+nav p a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 15px;
+}
+
+nav p a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 2em;
+    color: #47476b;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* About Page - Section Styling */
+#weights, #cardio, #training, #exercises {
+    background: #e3eaf8;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #47476b;
+    border-radius: 5px;
+}
+
+#weights img, #cardio img, #training img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Contact Page */
+#contact {
+    text-align: center;
+    padding: 20px;
+    background: #e3eaf8;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#contact h2 {
+    color: #47476b;
+    font-size: 2em;
+}
+
+#contact h4 {
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #47476b;
+    text-decoration: underline;
+}
+
+/* Google Map */
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: white;
+    background: #47476b;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #e3eaf8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
